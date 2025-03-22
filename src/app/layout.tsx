@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
@@ -22,6 +23,8 @@ export default function RootLayout({
       <body className={textFont.className}>
         <Header />
         {children}
+        <Footer /> 
+
         <Analytics />
       </body>
     </html>

@@ -5,6 +5,7 @@
   --foreground: #1F2937;
 
   --header-bg: #E3E7ED;
+  --footer-bg: #F0E6F6;
 
   --font-app: "Poiret One", cursive;
   --font-title: "Cormorant Garamond", serif;
@@ -14,6 +15,8 @@
   --font-title-color: #3B3A4F;
   --font-text-color: #374151;
 
+  --border-color: #7B8089;
+
   --scrollbar-thumb: #B0A8B9;
   --scrollbar-track: #E4E7EB;
   --scrollbar-hover: #A0A4B2; 
@@ -21,12 +24,7 @@
 
 * {
   box-sizing: border-box;
-  transition: all 300ms linear;
-}
-
-html, body, h1, h2, h3, h4, h5, h6, p, span, div, a {
-  margin: 0;
-  padding: 0;
+  transition: all 250ms linear;
 }
 
 html {
@@ -44,33 +42,59 @@ header {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+footer {
+  background: var(--footer-bg);
+}
+
+aside {
+  background: var(--header-bg);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
   font-family: var(--font-title);
   color: var(--font-title-color);
 }
 
 h1 {
   font-size: 2.5rem;
-  font-weight: bold;
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 1.75rem;
 }
 
-p, span, div, a {
+h4 {
+  font-size: 1.5rem;
+}
+
+
+h5 {
+  font-size: 1.25rem;
+}
+
+p, span, div {
   font-family: var(--font-text);
   color: var(--font-text-color);
 }
 
+a {
+  font-weight: 500;
+  color: var(--font-title-color);
+
+  &:hover {
+    color: var(--font-app-color);
+  }
+}
+
 .app-name {
   font-family: var(--font-app);
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--font-app-color);
 }
 
