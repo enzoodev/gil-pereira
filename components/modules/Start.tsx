@@ -16,7 +16,7 @@ export default function Start() {
             quality={100}
         />
         <div>
-          <h1 className="text-4xl font-bold">{name}</h1>
+          <h1 className="app-name">{name}</h1>
             <p className="text-lg">Transforme suas emoções, redescubra sua força.</p>
             <button className="bg-blue-500 text-white px-4 py-2 rounded-lg">Saiba mais</button>
         </div>
