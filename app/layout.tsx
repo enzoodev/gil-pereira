@@ -1,5 +1,6 @@
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
+import Head from "next/head";
 import Footer from "../components/layout/Footer";
 import Header from "../components/layout/Header";
 import { name } from "../constants/name";
@@ -19,7 +20,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <title>{name}</title>
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+          <title>{name}</title>
+        </Head>
       </head>
       <body className={textFont.className}>
         <Header />
