@@ -1,7 +1,8 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
+import Footer from "../components/layout/Footer";
+import Header from "../components/layout/Header";
+import { name } from "../constants/name";
 import { textFont } from "./fonts";
 import "./globals.css";
 
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <title>Gil Pereira</title>
+        <title>{name}</title>
       </head>
       <body className={textFont.className}>
         <Header />
