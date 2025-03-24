@@ -1,6 +1,6 @@
-import { name } from "@/constants/name";
-import { phone } from "@/constants/phone";
-import { slogan } from "@/constants/slogan";
+import { name } from "@/utils/constants/name";
+import { phone } from "@/utils/constants/phone";
+import { slogan } from "@/utils/constants/slogan";
 import Image from "next/image";
 
 export default function Footer() {

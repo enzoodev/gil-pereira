@@ -4,24 +4,25 @@
   --background: #F5F7FA;
   --foreground: #1F2937;
 
-  --header-bg: #F0E6F6;
-  --footer-bg: #F0E6F6;
+  --header-bg: #E3ECF5;
+  --footer-bg: #E3ECF5;
 
-  --start-section-bg: #F0E6F6;
+  --start-section-bg: #E3ECF5;
+  --contact-section-bg: #1B2535;
 
   --font-app: "Poiret One", cursive;
   --font-title: "Poppins", serif;
   --font-text: "Karla", sans-serif;
 
-  --font-app-color: #6D597A;
-  --font-title-color: #3B3A4F;
+  --font-app-color: #53507c;
+  --font-title-color: #3a3c4f;
   --font-text-color: #374151;
 
   --border-color: #7B8089;
 
-  --scrollbar-thumb: #B0A8B9;
-  --scrollbar-track: #E4E7EB;
-  --scrollbar-hover: #A0A4B2; 
+  --scrollbar-thumb: #a8a8b9;
+  --scrollbar-track: #e4e8eb;
+  --scrollbar-hover: #A0A4B2;
 
   --faq-bg: #E3ECF5;
 }
@@ -48,11 +49,6 @@ header {
 
 footer {
   background: var(--footer-bg);
-}
-
-aside {
-  background: var(--header-bg);
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3, h4, h5, h6, summary {
