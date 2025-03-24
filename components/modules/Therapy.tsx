@@ -13,7 +13,7 @@ const therapyTopics = [
 
 export default function Therapy() {
     return (
-        <section id={sections[1].id} className="flex flex-col items-center p-4 space-y-8 bg-gradient-to-r from-violet-50 via-purple-50 to-fuchsia-50">
+        <section id={sections[1].id} className="flex flex-col items-center p-4 space-y-8">
             <div className="flex flex-col items-center w-full max-w-2xl space-y-3">
                 <h2 className="text-center">Terapia</h2>
                 <p>{therapy}</p>

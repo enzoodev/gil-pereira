@@ -1,10 +1,10 @@
-import { whatsAppUrl } from "@/constants/whatsAppUrl";
+import { getWhatsAppUrl } from "@/constants/getWhatsAppUrl";
 import Image from "next/image";
 
 export default function WhatsAppButton() {
   return (
     <a
-      href={whatsAppUrl}
+      href={getWhatsAppUrl()}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 shadow-lg focus:outline-none flex items-center justify-center rounded-full"
