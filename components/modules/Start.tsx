@@ -8,7 +8,7 @@ export default function Start() {
     return (
       <section id={sections[0].id} className="flex flex-col justify-center lg:flex-row p-4 lg:space-x-24 xl:space-x-32 space-y-4 bg-[var(--start-section-bg)]">
         <Image
-            src="/contact-photo.jpeg"
+            src="/start-photo.jpeg"
             alt="Presentation image"
             width={0}
             height={0} 
