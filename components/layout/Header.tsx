@@ -1,11 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { name } from "../../constants/name";
+import { sections } from "../../constants/sections";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    
+    const closeMenu = useCallback(() => {
+        setIsMenuOpen(false);
+    }, []);
   
     useEffect(() => {
         const links = document.querySelectorAll("a[href^='#']");
@@ -79,21 +84,23 @@ export default function Header() {
                 </button>
                 
                 {isMenuOpen && (
-                    <div className="absolute top-full right-0 w-44 bg-[var(--background)] shadow-lg z-50 flex flex-col py-2 px-4 rounded-md">
-                        <ul className="w-full text-right space-y-1">
-                            <li className="w-full"><a className="block py-2 text-lg" href="#home">Início</a></li>
-                            <li className="w-full"><a className="block py-2 text-lg" href="#about">Sobre mim</a></li>
-                            <li className="w-full"><a className="block py-2 text-lg" href="#services">Serviços</a></li>
-                            <li className="w-full"><a className="block py-2 text-lg" href="#contact">Contato</a></li>
+                    <div className="absolute top-full right-0 w-44 bg-[var(--header-bg)] shadow-lg z-50 flex flex-col py-2 px-4 rounded-md">
+                       <ul className="w-full text-right space-y-1">
+                           {sections.map((section) => (
+                               <li key={section.id} className="w-full" onClick={closeMenu}>
+                                   <a className="block py-2 text-lg" href={`#${section.id}`}>{section.name}</a>
+                               </li>
+                           ))}
                         </ul>
                     </div>
                 )}
                 
-                <ul className="hidden sm:flex space-x-6">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#about">Sobre mim</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#contact">Contato</a></li>
+               <ul className="hidden sm:flex space-x-6">
+                   {sections.map((section) => (
+                       <li key={section.id}>
+                           <a href={`#${section.id}`}>{section.name}</a>
+                       </li>
+                   ))}
                 </ul>
             </nav>
         </header>

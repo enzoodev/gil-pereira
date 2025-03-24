@@ -4,12 +4,14 @@
   --background: #F5F7FA;
   --foreground: #1F2937;
 
-  --header-bg: #E3E7ED;
+  --header-bg: #F0E6F6;
   --footer-bg: #F0E6F6;
 
+  --start-section-bg: #F0E6F6;
+
   --font-app: "Poiret One", cursive;
-  --font-title: "Cormorant Garamond", serif;
-  --font-text: "Quicksand", sans-serif;
+  --font-title: "Poppins", serif;
+  --font-text: "Karla", sans-serif;
 
   --font-app-color: #6D597A;
   --font-title-color: #3B3A4F;
@@ -52,7 +54,7 @@ aside {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+  font-weight: 400;
   font-family: var(--font-title);
   color: var(--font-title-color);
 }
@@ -73,7 +75,6 @@ h4 {
   font-size: 1.5rem;
 }
 
-
 h5 {
   font-size: 1.25rem;
 }
@@ -93,6 +94,7 @@ a {
 }
 
 .app-name {
+  font-weight: bold;
   font-family: var(--font-app);
   font-size: 2rem;
   color: var(--font-app-color);

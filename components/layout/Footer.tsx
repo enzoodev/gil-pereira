@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { name } from "../../constants/name";
+import { phone } from "../../constants/phone";
 import { slogan } from "../../constants/slogan";
 
 export default function Footer() {
@@ -18,7 +19,7 @@ export default function Footer() {
                 <h5 className="hidden lg:block">Contato</h5>   
                 <div className="flex flex-row items-center space-x-1">
                     <span className="text-sm">WhatsApp:</span>
-                    <span className="text-sm">(11) 99999-9999</span>
+                    <span className="text-sm">{phone}</span>
                 </div>
             </div>
         </div>
