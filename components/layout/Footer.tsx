@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="p-8">
         <div className="flex flex-col lg:flex-row justify-center space-y-4 lg:space-x-16 items-center">
             <div className="text-center lg:text-left">
-                  <h1 className="app-name text-center lg:text-left">{name}</h1>
+                <h1 className="app-name text-center lg:text-left">{name}</h1>
                 <p className="text-sm">{slogan}</p>
             </div>
             <div className="flex flex-row space-x-4">

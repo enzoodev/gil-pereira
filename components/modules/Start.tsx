@@ -1,7 +1,7 @@
 import { aboutParagraphs } from "@/constants/aboutParagraphs";
+import { getWhatsAppUrl } from "@/constants/getWhatsAppUrl";
 import { name } from "@/constants/name";
 import { sections } from "@/constants/sections";
-import { whatsAppUrl } from "@/constants/whatsAppUrl";
 import Image from "next/image";
 
 export default function Start() {
@@ -28,7 +28,7 @@ export default function Start() {
             <p>{aboutParagraphs.third}</p>
           </div>
           <a
-            href={whatsAppUrl}
+            href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center self-start gap-2 mt-4 !bg-[var(--font-app-color)] !text-white px-6 py-2 rounded-md hover:!bg-opacity-50"
