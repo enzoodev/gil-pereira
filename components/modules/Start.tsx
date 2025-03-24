@@ -1,14 +1,14 @@
-import { aboutParagraphs } from "@/constants/aboutParagraphs";
-import { getWhatsAppUrl } from "@/constants/getWhatsAppUrl";
-import { name } from "@/constants/name";
-import { sections } from "@/constants/sections";
+import { aboutParagraphs } from "@/utils/constants/aboutParagraphs";
+import { name } from "@/utils/constants/name";
+import { sections } from "@/utils/constants/sections";
+import { getWhatsAppUrl } from "@/utils/functions/getWhatsAppUrl";
 import Image from "next/image";
 
 export default function Start() {
     return (
-      <section id={sections[0].id} className="flex flex-col justify-center lg:flex-row p-4 space-x-32 space-y-4 bg-[var(--start-section-bg)]">
+      <section id={sections[0].id} className="flex flex-col justify-center lg:flex-row p-4 lg:space-x-24 xl:space-x-32 space-y-4 bg-[var(--start-section-bg)]">
         <Image
-            src="/photo-3.jpeg"
+            src="/start-photo.jpeg"
             alt="Presentation image"
             width={0}
             height={0} 

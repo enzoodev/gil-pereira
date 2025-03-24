@@ -1,12 +1,12 @@
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
-import { name } from "@/constants/name";
+import { textFont } from "@/lib/fonts";
+import { name } from "@/utils/constants/name";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import Head from "next/head";
-import { textFont } from "./fonts";
-import "./globals.css";
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: name,

@@ -8,6 +8,7 @@
   --footer-bg: #F0E6F6;
 
   --start-section-bg: #F0E6F6;
+  --contact-section-bg: #1B2535;
 
   --font-app: "Poiret One", cursive;
   --font-title: "Poppins", serif;
@@ -48,11 +49,6 @@ header {
 
 footer {
   background: var(--footer-bg);
-}
-
-aside {
-  background: var(--header-bg);
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3, h4, h5, h6, summary {

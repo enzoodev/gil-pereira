@@ -1,4 +1,4 @@
-import { sections } from "@/constants/sections";
+import { sections } from "@/utils/constants/sections";
 
 const faqs = [
     {

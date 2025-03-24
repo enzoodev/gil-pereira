@@ -1,5 +1,5 @@
-import { sections } from "@/constants/sections";
-import { therapy } from "@/constants/therapy";
+import { sections } from "@/utils/constants/sections";
+import { therapy } from "@/utils/constants/therapy";
 import Image from "next/image";
 
 const therapyTopics = [

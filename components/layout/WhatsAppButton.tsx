@@ -1,4 +1,4 @@
-import { getWhatsAppUrl } from "@/constants/getWhatsAppUrl";
+import { getWhatsAppUrl } from "@/utils/functions/getWhatsAppUrl";
 import Image from "next/image";
 
 export default function WhatsAppButton() {

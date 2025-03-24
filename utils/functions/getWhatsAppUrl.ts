@@ -1,4 +1,4 @@
-import { phone } from "./phone";
+import { phone } from "../constants/phone";
 
 const countryCode = 55;
 const decodedPhone = phone.replace(/\D/g, "");
