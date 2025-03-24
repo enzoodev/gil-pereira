@@ -31,7 +31,7 @@ export default function Start() {
             href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center self-start gap-2 mt-4 !bg-[var(--font-app-color)] !text-white px-6 py-2 rounded-md hover:!bg-opacity-50"
+            className="flex items-center self-start gap-2 mt-4 !bg-[var(--font-app-color)] !text-white px-7 py-2.5 rounded-md hover:!bg-opacity-50"
             aria-label="Fale comigo no WhatsApp"
           >
             Fale comigo aqui
