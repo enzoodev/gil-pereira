@@ -1,5 +1,5 @@
+import { whatsAppUrl } from "@/constants/whatsAppUrl";
 import Image from "next/image";
-import { whatsAppUrl } from "../constants/whatsAppUrl";
 
 export default function WhatsAppButton() {
   return (

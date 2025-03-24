@@ -1,15 +1,15 @@
+import { aboutParagraphs } from "@/constants/aboutParagraphs";
+import { name } from "@/constants/name";
 import { sections } from "@/constants/sections";
+import { whatsAppUrl } from "@/constants/whatsAppUrl";
 import Image from "next/image";
-import { aboutParagraphs } from "../../constants/aboutParagraphs";
-import { name } from "../../constants/name";
-import { whatsAppUrl } from "../../constants/whatsAppUrl";
 
 export default function Start() {
     return (
       <section id={sections[0].id} className="flex flex-col justify-center lg:flex-row p-4 space-x-32 space-y-4 bg-[var(--start-section-bg)]">
         <Image
             src="/photo-3.jpeg"
-            alt="Description of the image"
+            alt="Presentation image"
             width={0}
             height={0} 
             className="w-full max-w-lg rounded-md"

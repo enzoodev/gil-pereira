@@ -1,9 +1,9 @@
 "use client";
 
+import { name } from "@/constants/name";
+import { sections } from "@/constants/sections";
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
-import { name } from "../../constants/name";
-import { sections } from "../../constants/sections";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
