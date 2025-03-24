@@ -41,7 +41,7 @@ export default function Header() {
    return  (
         <header className="flex justify-between items-center py-2 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-24 relative">
             <div className="flex items-center space-x-2">
-                <Image src="/logo.png" alt="Logo" height={35} width={50} />
+                <Image src="/logo.png" alt="Logo" height={50} width={50} />
                <h1 className="app-name">{name}</h1>
             </div>
             

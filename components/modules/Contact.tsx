@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <section id={sections[2].id} className="flex flex-col justify-center items-center lg:flex-row p-4 lg:space-x-24 xl:space-x-32 space-y-4 bg-[var(--contact-section-bg)]">
             <Image
-                src="/contact-photo.jpeg"
+                src="/start-photo.jpeg"
                 alt="Contact image"
                 width={0}
                 height={0} 
