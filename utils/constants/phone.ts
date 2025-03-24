@@ -1,0 +1,1 @@
+export const phone = "(79) 99124-8984";
