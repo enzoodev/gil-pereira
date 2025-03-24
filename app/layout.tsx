@@ -1,10 +1,10 @@
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
+import WhatsAppButton from "@/components/layout/WhatsAppButton";
+import { name } from "@/constants/name";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import Head from "next/head";
-import Footer from "../components/layout/Footer";
-import Header from "../components/layout/Header";
-import WhatsAppButton from "../components/WhatsAppButton";
-import { name } from "../constants/name";
 import { textFont } from "./fonts";
 import "./globals.css";
 
