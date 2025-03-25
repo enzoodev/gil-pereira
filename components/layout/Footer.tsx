@@ -11,8 +11,10 @@ export default function Footer() {
                 <h1 className="app-name text-center lg:text-left">{name}</h1>
                 <p className="text-sm">{slogan}</p>
             </div>
-            <div className="flex flex-row space-x-4">
-                  <Image src="/instagram.png" alt="instagram" height={30} width={30} className="cursor-pointer" />
+              <div className="flex flex-row space-x-4">
+                  <a href="https://www.instagram.com/terapeutaemocionalgil/" target="_blank" rel="noopener noreferrer">
+                    <Image src="/instagram.png" alt="instagram" height={30} width={30} className="cursor-pointer" />
+                  </a>
                   <Image src="/email.png" alt="email" height={30} width={30} className="cursor-pointer" />
             </div>
             <div className="flex flex-col">

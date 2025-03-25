@@ -52,7 +52,7 @@ export default function Contact() {
                             width={36}
                             height={36} 
                             />
-                        <span className="!text-white">Atendimento presencial na cidade de Aracaju-SE</span>
+                        <span className="!text-white">Atendimento presencial nas cidades de Aracaju e Nossa Senhora do Socorro</span>
                         <a
                             href={getWhatsAppUrl(true)}
                             target="_blank"
