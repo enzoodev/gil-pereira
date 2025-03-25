@@ -18,7 +18,7 @@ const faqs = [
     },
     {
         question: "Como é realizado o atendimento presencial?",
-        answer: "O atendimento presencial ocorre na cidade de Aracaju-SE. É uma ótima opção para quem prefere o contato pessoal durante as sessões.",
+        answer: "O atendimento presencial ocorre nas cidades de Aracaju e Nossa Senhora do Socorro. É uma ótima opção para quem prefere o contato pessoal durante as sessões.",
     },
     {
         question: "Com que frequência devo fazer terapia?",
